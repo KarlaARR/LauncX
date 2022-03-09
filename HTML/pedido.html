@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTG-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pedido</title>
+    </head>
+    <body>
+        <h1>Haz tu pedido</h1>
+        <form action="pedido.js" >
+
+            <label for="Nombre">Nombre:</label><br>
+            <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+            <br><br>
+            <label for="Tel">Telefono:</label><br>
+            <input type="tel" id="Tel" name="Tel">
+            <br><br>
+            <label for="Email">Correo:</label><br>
+            <input type="email" id="Email" name="Email" placeholder="ejemplo@email.com">
+            <br><br>
+            <label for="Descripcion">Descripción general:</label><br>
+            <textarea id="Descripcion" name="Descripcion">Descripción general del pastel
+            </textarea>
+
+            <p>Elije tus sabores</p>
+            <input type="checkbox" id="Chocolate" name="Cholocate" value="Chocolate">
+            <label for="Chocolate">Chocolate</label>
+            <input type="checkbox" id="Vainilla" name="Vainilla" value="Vainilla">
+            <label for="Vainilla">Vainilla</label>
+            <input type="checkbox" id="Limon" name="Limon" value="Limon">
+            <label for="Limon">Limón</label>
+            <input type="checkbox" id="redVelvet" name="redVelvet" value="redVelvet">
+            <label for="redVelvet">Red Velvet</label>
+            <input type="checkbox" id="Zanahoria" name="Zanahoria" value="Zanahoria">
+            <label for="Zanahoria">Zanahoria</label>
+
+            <p>Elije tus Adornos</p>
+            <input type="checkbox" id="Nombre" name="Nombre" value="Nombre">
+            <label for="Nombre">Nombre</label>
+            <input type="checkbox" id="Personaje" name="Personaje" value="Personaje">
+            <label for="Personaje">Personaje animado</label>
+            <input type="checkbox" id="Animal" name="Animal" value="Animal">
+            <label for="Animal">Animal</label>
+            <input type="checkbox" id="Arcoiris" name="Arcoiris" value="Arcoiris">
+            <label for="Arcoiris">Arcoiris</label>
+            <input type="checkbox" id="Flores" name="Flores" value="Flores">
+            <label for="Flores">Flores</label>
+
+            <br><br>
+            <input type="reset">
+            <input type="submit">
+
+        </form>
+    </body>
+</html>
